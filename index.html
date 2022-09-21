@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Covid-19 Website </title>
+<style>
+
+nav .logo{
+  color: black;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 110px;
+}
+nav{
+  height: 70px;
+width:100%;
+  background: white;
+  box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: black;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-size: 20px;
+  background: white;
+  transition: .5s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color: #23dbdb;
+}
+nav ul ul{
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #23dbdb;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 150px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #042331;
+  border-top: none;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+nav ul ul li a i{
+  margin-left: 45px;
+}
+
+</style>
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	  <link rel="stylesheet" href="style.css">
+ <link rel=stylesheet"href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+<link rel=stylesheet"href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+  <nav>
+        <a href="#" class="logo">C<span class="fas fa-virus"></span>VID-19</a>
+         <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li>
+               <a href="#">Testing
+               <i class="fas fa-caret-down"></i>
+               </a>
+               <ul>
+			   <li><a href="patient-search-report.php">Test Report</a></li>
+                   <li>
+				   
+                     <a href="#">Book slot<i class="fas fa-caret-right"></i>
+                     </a>
+                     <ul>
+                        <li><a href="new-user-testing.php">New registration</a></li>
+                        <li><a href="registered-user-testing.php">Already registred</a></li>
+                     </ul>
+					 
+                  </li>
+               </ul>
+			  
+            </li>
+			
+            <li><a href="https://selfregistration.cowin.gov.in/">Vaccination</a></li>
+            <li><a href="https://covid19.ncdhhs.gov/vaccines">Vaccination Data India</a></li>
+            <li><a href="live-test-updates.php">Live-Updates</a></li>
+            <li><a href="login.php">Admin</a></li>
+
+		</ul>
+      </nav>
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+
+        <span>Covid-19</span>
+        <h3>stay safe, stay home</h3>
+        <p>One of the most recommended preventive measures suggested by the World Health Organisation (WHO), doctors and experts worldwide is social distancing and self-isolation. This way you can escape those who exhibit symptoms.We care about you and your family and want to make sure you stay safe and healthy.Here are a few important remainders.</p>
+        <p> We also have few resources like booking slot for <span>COVID </span>testing and Vaccination. </p>
+		<a href="https://youtu.be/-Fdo_HT3X80" class="btn">protect yourself</a>
+		 
+
+    </div>
+
+    <div class="image">
+        <img src="images/home-img.png" alt="" >
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<section class="protect" id="protect">
+
+    <h1 class="heading">Take steps to <span>protect</span> yourself</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/protect-1.png" alt="">
+            <h3>Wear A Face Mask</h3>
+            <p>Make sure it covers both nose,mouth and chin.</p>
+            <a href="https://youtu.be/9Tv2BVN_WTk" class="btn">Take look</a>
+        </div>
+
+        <div class="box">
+            <img src="images/protect-2.png" alt="">
+            <h3>Wash Your Hands</h3>
+            <p>Your life is in your hands Wash your hands always</p>
+            <a href="https://youtu.be/3PmVJQUCm4E" class="btn">Take look</a>
+        </div>
+
+        <div class="box">
+            <img src="images/protect-3.png" alt="">
+            <h3>Avoid Close Contact</h3>
+            <p>avoid shaking hands,hugging,etc.,especially with those who are sick</p>
+            <a href="https://youtu.be/QtNZZWLdoeo" class="btn">Take look</a>
+        </div>
+    </div>
+</section>
+
+<!-- symtoms section starts  -->
+
+<section class="symtoms" id="symtoms">
+    <div class="content">
+        <h1 class="heading">What Are The Main <span>Symptoms?</span></h1>
+        <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.</p>
+        <ul>
+            <div class="one">
+                <li>fever</li>
+                <li>Tiredness</li>
+                <li>Dry Cough</li>
+            </div>
+            <div class="two">
+                <li>Sore Throat</li>            
+                <li>Aches and Pains</li>
+                <li>Shortness of Breath</li>
+            </div>
+        </ul>
+        <a href="https://youtu.be/U8r3oTVMtQ0" class="btn">know more</a>
+    </div>
+
+    <div class="image">
+        <img src="https://i.pinimg.com/564x/5c/6f/00/5c6f002490048957ccc832fa98ae200e.jpg" width="400px" height="550px" alt="">
+    </div>
+	
+</section>
+
+<!-- symtoms section ends -->
+
+<!-- prevent section starts  -->
+
+<section class="prevent" id="prevent">
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/dont-img.png" alt="">
+        </div>
+	 <div class="content">
+            <h1 class="heading">Things <span>not to do</span> during covid</h1>
+            <p>here is a list of things you should not do to save the infection and panic about the disease from escalating further.</p>
+            <ul>
+                <li>Do Not Share Eating</li>
+                <li>Do Not Touch Your Face or Nose</li>
+                <li>Do Not Contact Sick People</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="content">
+            <h1 class="heading">Things <span>to do</span> during covid</h1>
+            <p>Anyone who is sick — even if they don't know for sure they have COVID-19 — should stay home unless they need medical care. This helps prevent the illness from spreading to other people.</p>
+            <ul>
+                <li>Wash Your Hands For 20 sec</li>
+                <li>Wear a Mask if Available</li>
+                <li>Seek Medical Care Regularly</li>
+            </ul>
+        </div>
+
+        <div class="image">
+            <img src="images/do-img.png" alt="">
+        </div>
+
+    </div>
+</section>
+
+<!-- prevent section ends -->
+
+<!-- handwash section starts  -->
+
+<section class="handwash" id="handwash">
+
+    <h1 class="heading">How to <span>wash your hand</span> properly</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span>1</span>
+            <img src="images/hadnwash-1.png" alt="">
+            <h3>Apply Soap on Hand</h3>
+        </div>
+
+        <div class="box">
+            <span>2</span>
+            <img src="images/hadnwash-2.png" alt="">
+            <h3>Palm to Palm</h3>
+        </div>
+
+        <div class="box">
+            <span>3</span>
+            <img src="images/hadnwash-3.png" alt="">
+            <h3>Between Fingers</h3>
+        </div>
+
+        <div class="box">
+            <span>4</span>
+            <img src="images/hadnwash-4.png" alt="">
+            <h3>Back of The Hands</h3>
+        </div>
+
+        <div class="box">
+            <span>5</span>
+            <img src="images/hadnwash-5.png" alt="">
+            <h3>clean with water</h3>
+        </div>
+
+        <div class="box">
+            <span>6</span>
+            <img src="images/hadnwash-6.png" alt="">
+            <h3>Use Towel to Dry</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- handwash section ends -->
+
+<!-- spread section starts  -->
+
+<section class="spread" id="spread">
+
+    <h1 class="heading">How Covid-19 <span>spreads</span> over the world</h1>
+
+    <div class="image">
+	<img src="images/map.png" alt="">
+	</div>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+
+<!-- spread section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>we are working to serve peoples and helping to save lifes ,kindly co-operate with us and protect your self from covid-19.</p>
+        </div>
+
+        <div class="box">
+            <h3>Disclaimer </h3>
+            <p>Please note that this page also provides links to the websites / web pages of Govt. Ministries/Departments/Organisations. The content of these websites are owned by the respective organisations and they may be contacted for any further information or suggestion.</p>
+        </div>
+
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#home">home</a>
+            <a href="#protect">protect</a>
+            <a href="#symtoms">symtoms</a>
+            <a href="#prevent">prevent</a>
+            <a href="#handwash">handwash</a>
+            <a href="#spread">spread</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i> +91 9391262675. </p>
+            <p> <i class="fas fa-envelope"></i> doradla.amareswari@gmail.com </p>
+            <p> <i class="fas fa-map-marker-alt"></i> Guntur, india - 522007. </p>
+            <div class="share">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <a href="#">ABR</a> all rights reserved! </h1>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home" class="scroll-top">
+    <img src="images/scroll-img.png" alt="">
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
